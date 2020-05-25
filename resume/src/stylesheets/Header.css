@@ -1,0 +1,22 @@
+#headerSection a, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#headerSection h5 {
+    font-weight: 100;
+}
+
+#headerSection h4 {
+    font-weight: 300;
+}
+
+#headerSection h4, h5 {
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+#headerSection .fa {
+    -webkit-text-stroke: 1px white;
+    font-size: x-large;
+}

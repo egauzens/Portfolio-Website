@@ -1,0 +1,50 @@
+import React from 'react';
+
+import '../stylesheets/Experience.css';
+
+const Experience = () => {
+    return (   
+        <div className="mb-3">
+            <h2>Experience</h2>
+            <div className="timeline">
+                <div className="container left">
+                    <div className="content">
+                        <strong><p>Mechanic</p></strong>
+                        <p className="mb-2">Yellowstone National Park</p>
+                        <p>June 2019 - Oct 2019</p>
+                    </div>
+                </div>
+                <div className="container right">
+                    <div className="content">
+                        <strong><p>Staff Software Engineer</p></strong>
+                        <p className="mb-2">National Instruments</p>
+                        <p>Oct 2017 - May 2019</p>
+                    </div>
+                </div>
+                <div className="container left">
+                    <div className="content">
+                        <strong><p>Software Engineer</p></strong>
+                        <p className="mb-2">National Instruments</p>
+                        <p>Aug 2016 - Sep 2017</p>
+                    </div>
+                </div>
+                <div className="container right">
+                    <div className="content">
+                        <strong><p>Software Engineer Internship</p></strong>
+                        <p className="mb-2">National Instruments</p>
+                        <p>May 2015 - Aug 2015</p>
+                    </div>
+                </div>
+                <div className="container left">
+                    <div className="content">
+                        <strong><p>Technical Expert</p></strong>
+                        <p className="mb-2">Law Offices of Stokes McMillan Antunez</p>
+                        <p>May 2014 - Aug 2014</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Experience;

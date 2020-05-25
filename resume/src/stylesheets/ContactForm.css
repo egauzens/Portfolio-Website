@@ -1,0 +1,19 @@
+.form-control {
+    padding-left: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+button.form-control{
+    border-bottom: none;
+}
+
+button.form-control:hover {
+    background-color: #f2f5f6;
+}
+
+#smallHeadshot {
+    max-height: 230px;
+}

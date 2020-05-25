@@ -1,0 +1,15 @@
+#toggleText {
+    color: darkorange;
+}
+
+#toggleText:hover {
+    color: black;
+}
+
+#toggleText:after  {
+    content: '+ Read More';
+}
+
+#toggleText:not(.collapsed):after {
+    content: '- Read Less';
+}
