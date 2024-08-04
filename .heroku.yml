@@ -1,2 +1,0 @@
-run:
-  web: node backend/index.js
