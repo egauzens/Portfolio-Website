@@ -16,7 +16,7 @@ class ContactForm extends React.Component {
         e.preventDefault();
         axios({
             method: "POST", 
-            url:"https://afternoon-escarpment-85532.herokuapp.com/send", 
+            url:"https://portfolio-website-3ng0.onrender.com/send", 
             data:  this.state
           }).then((response)=>{
             if (response.data.status === 'success'){
