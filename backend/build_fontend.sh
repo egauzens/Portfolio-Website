@@ -2,6 +2,7 @@
 # heroku-build.sh
 
 # Build the frontend
+cd ..
 cd resume
 npm install
 npm run build
