@@ -11,11 +11,11 @@ app.use(express.json());
 app.use('/', router);
 app.listen(process.env.PORT);
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'public', 'build')));
 
 // Point server to React files
 app.get('/*', (res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'build', 'index.html'));
 });
 
 var transport = {
