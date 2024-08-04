@@ -15,3 +15,5 @@ cd ..
 
 # Now, deploy the backend
 cd backend
+
+npm install
