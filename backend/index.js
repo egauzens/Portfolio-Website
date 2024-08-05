@@ -19,11 +19,14 @@ app.get('/*', (res) => {
 });
 
 var transport = {
-    host: 'smtp.live.com',
+    host: 'smtp.office365.com',
     port: 587,
     auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD
+  },
+  tls: {
+    ciphers: 'SSLv3'
   }
 }
 
