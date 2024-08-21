@@ -1,0 +1,16 @@
+.circle {
+  border-radius: 50%;
+  width: 14rem;
+  margin: 1rem;
+  box-shadow: -8px 8px 16px rgba(0, 0, 0, 0.5);
+}
+.circle:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

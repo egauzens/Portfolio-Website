@@ -1,8 +1,9 @@
 import React from 'react';
 
 import CoverLetter from './CoverLetter'
-import Experience from './Experience'
 import Education from './Education'
+import Experience from './Experience'
+import Projects from './Projects'
 import '../stylesheets/Resume.css'
 
 class Resume extends React.Component {
@@ -16,6 +17,7 @@ class Resume extends React.Component {
                     </div>
                     <div className="col-lg-10">
                         <CoverLetter />
+                        <Projects />
                         <Experience />
                         <Education />
                     </div>

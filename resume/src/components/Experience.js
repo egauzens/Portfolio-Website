@@ -7,11 +7,18 @@ const Experience = () => {
         <div className="mb-3">
             <h2>Experience</h2>
             <div className="timeline">
+                <div className="container right">
+                    <div className="content">
+                        <strong><p>Technical Lead</p></strong>
+                        <p className="mb-2">Wagenaar Lab<br/>University of Pennsylvania</p>
+                        <p>Sep 2021 - Sep 2025</p>
+                    </div>
+                </div>
                 <div className="container left">
                     <div className="content">
-                        <strong><p>Mechanic</p></strong>
-                        <p className="mb-2">Yellowstone National Park</p>
-                        <p>June 2019 - Oct 2019</p>
+                        <strong><p>Web Developer</p></strong>
+                        <p className="mb-2">SafeAuto</p>
+                        <p>Apr 2021 - Sep 2021</p>
                     </div>
                 </div>
                 <div className="container right">
@@ -33,13 +40,6 @@ const Experience = () => {
                         <strong><p>Software Engineer Internship</p></strong>
                         <p className="mb-2">National Instruments</p>
                         <p>May 2015 - Aug 2015</p>
-                    </div>
-                </div>
-                <div className="container left">
-                    <div className="content">
-                        <strong><p>Technical Expert</p></strong>
-                        <p className="mb-2">Law Offices of Stokes McMillan Antunez</p>
-                        <p>May 2014 - Aug 2014</p>
                     </div>
                 </div>
             </div>
